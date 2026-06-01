@@ -63,3 +63,7 @@ func _animate() -> void:
 func _on_timer_timeout() -> void:
 	_is_attacking = false
 	return
+
+
+func _on_attack_area_body_entered(body: Node2D) -> void:
+	pass # Replace with function body.
